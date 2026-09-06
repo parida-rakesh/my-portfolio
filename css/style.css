@@ -1930,6 +1930,30 @@ html {
   #rk-portfolio-site .rk-seo-tools * {
     font-size: 13px !important;
   }
+  #rk-portfolio-site .rk-service-card h3,
+  #rk-portfolio-site .rk-skill-cat h3,
+  #rk-portfolio-site .rk-timeline-card h3,
+  #rk-portfolio-site .rk-workflow-card h3,
+  #rk-portfolio-site .rk-development-card h3,
+  #rk-portfolio-site .rk-project-card h3,
+  #rk-portfolio-site .rk-seo-card h4,
+  #rk-portfolio-site .rk-why-card h3,
+  #rk-portfolio-site .rk-testi-card h3,
+  #rk-portfolio-site .rk-contact-next h3,
+  #rk-portfolio-site .rk-education-item h3 {
+    font-size: 20px !important;
+  }
+  #rk-portfolio-site .rk-service-card p,
+  #rk-portfolio-site .rk-workflow-card p,
+  #rk-portfolio-site .rk-development-card p,
+  #rk-portfolio-site .rk-project-card p,
+  #rk-portfolio-site .rk-seo-card p,
+  #rk-portfolio-site .rk-why-card p,
+  #rk-portfolio-site .rk-testi-card p,
+  #rk-portfolio-site .rk-contact-next p,
+  #rk-portfolio-site .rk-education-item p {
+    font-size: 13px !important;
+  }
   #rk-portfolio-site .rk-profile-panel {
     min-height: 0;
     padding: 76px 22px 34px;
