@@ -2004,6 +2004,8 @@ html {
     border-radius: 20px;
   }
   #rk-portfolio-site .rk-service-icon img { width: 50px; height: 50px; }
+  #rk-portfolio-site .rk-service-card h3 { font-size: 20px !important; }
+  #rk-portfolio-site .rk-contact-next h3 { font-size: 20px !important; }
   #rk-portfolio-site .rk-service-card + .rk-service-card { padding-top: 16px; }
   #rk-portfolio-site .rk-service-card:last-child { border-bottom: 0; padding-bottom: 0; }
   #rk-portfolio-site .rk-hero-ghost { font-size: clamp(40px, 15vw, 70px); top: -14px; }
