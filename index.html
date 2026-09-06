@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Keep content in HTML/data and design in css/style.css. -->
+<meta charset="UTF-8">
+<title>Rakesh Kumar Parida | WordPress Developer</title>
+<meta name="description" content="Rakesh Kumar Parida is a WordPress Developer with 3.5+ years of experience in WordPress development, frontend UI implementation, website customization, maintenance and SEO.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Rakesh Kumar Parida | WordPress Developer">
+<meta property="og:description" content="WordPress Developer with 3.5+ years of experience in WordPress development, frontend implementation, customization, maintenance and SEO.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/images/new banner blue.webp" fetchpriority="high">
+
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================================================================
+     RK PORTFOLIO SITE — scoped wrapper, all styles/scripts contained
+================================================================= -->
+<div id="rk-portfolio-site">
+
+  <div class="rk-progress" id="rkProgress"></div>
+
+  <!-- HEADER -->
+  <header class="rk-header" id="rkHeader">
+    <div class="rk-header-inner">
+      <a href="#home" class="rk-logo" aria-label="Rakesh Kumar Parida - Home">
+        <span class="rk-logo-mark">RK</span>
+        <span class="rk-logo-text">Rakesh Kumar<span>WordPress Developer</span></span>
+      </a>
+      <nav class="rk-nav-desktop" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#profile-tabs">Skills</a>
+        <a href="#profile-tabs">Experience</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="rk-header-actions">
+        <a href="#contact" class="rk-btn rk-btn-primary rk-btn-sm">Let's Talk</a>
+        <button class="rk-burger" id="rkBurger" aria-label="Open menu" aria-expanded="false" aria-controls="rkMobileNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile navigation panel -->
+  <nav class="rk-mobile-nav" id="rkMobileNav" aria-label="Mobile navigation">
+    <button class="rk-mobile-nav-close" id="rkMobileNavClose" type="button" aria-label="Close menu">&times;</button>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#profile-tabs">Skills</a>
+    <a href="#profile-tabs">Experience</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact" class="rk-btn rk-btn-primary">Let's Talk</a>
+  </nav>
+
+  <!-- SIDEBAR (sticky icon navigation, desktop) -->
+  <aside class="rk-sidebar" id="rkSidebar" aria-label="Primary navigation">
+    <a href="#home" class="rk-sidebar-logo" aria-label="Rakesh Kumar Parida - Home"><img src="assets/images/logo (2).webp" alt="Rakesh Kumar Parida logo"></a>
+    <nav class="rk-sidebar-nav">
+      <a href="#home" class="rk-sidebar-link" data-tip="Home" aria-label="Home">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
+      </a>
+      <a href="#services" class="rk-sidebar-link" data-tip="Services" aria-label="Services">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 00.34 1.87l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.7 1.7 0 00-1.87-.34 1.7 1.7 0 00-1 1.55V21a2 2 0 11-4 0v-.09a1.7 1.7 0 00-1-1.55 1.7 1.7 0 00-1.87.34l-.06.06a2 2 0 11-2.83-2.83l.06-.06a1.7 1.7 0 00.34-1.87 1.7 1.7 0 00-1.55-1H3a2 2 0 110-4h.09a1.7 1.7 0 001.55-1 1.7 1.7 0 00-.34-1.87l-.06-.06a2 2 0 112.83-2.83l.06.06a1.7 1.7 0 001.87.34H9a1.7 1.7 0 001-1.55V3a2 2 0 114 0v.09a1.7 1.7 0 001 1.55 1.7 1.7 0 001.87-.34l.06-.06a2 2 0 112.83 2.83l-.06.06a1.7 1.7 0 00-.34 1.87V9a1.7 1.7 0 001.55 1H21a2 2 0 110 4h-.09a1.7 1.7 0 00-1.55 1z"/></svg>
+      </a>
+      <a href="#portfolio" class="rk-sidebar-link" data-tip="Portfolio" aria-label="Portfolio">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 012-2h4a2 2 0 012 2v2"/></svg>
+      </a>
+      <a href="#about" class="rk-sidebar-link" data-tip="About" aria-label="About">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4.5 5-6 8-6s6.5 1.5 8 6"/></svg>
+      </a>
+      <a href="#profile-tabs" class="rk-sidebar-link" data-tip="Skills and Experience" aria-label="Skills and Experience">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/><path d="M9 14h6M9 18h6"/></svg>
+      </a>
+      <a href="#contact" class="rk-sidebar-link" data-tip="Contact" aria-label="Contact">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H8l-5 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+      </a>
+    </nav>
+    <a href="#contact" class="rk-sidebar-cta" aria-label="Let's talk">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+    </a>
+  </aside>
+
+  <main>
+    <!-- HERO -->
+    <section class="rk-hero" id="home">
+      <div class="rk-wrap rk-hero-grid">
+        <div class="rk-hero-copy">
+          <span class="rk-hero-ghost" aria-hidden="true">WELCOME</span>
+          <span class="rk-badge"><span class="rk-badge-dot"></span> Available for New Opportunities</span>
+          <h1>Hey <span aria-hidden="true">👋</span> I'm Rakesh</h1>
+          <p class="rk-hero-role"><span class="rk-typewriter" id="rkTypewriter"></span></p>
+          <div class="rk-hero-ctas">
+            <a href="#portfolio" class="rk-btn rk-btn-primary">View My Work</a>
+            <a href="assets/New CV August.pdf" class="rk-btn rk-btn-dark" download>Download Resume</a>
+          </div>
+          <div class="rk-hero-social">
+            <a href="https://linkedin.com/in/rakesh-kumar-parida-linku" class="rk-social-btn" aria-label="LinkedIn profile" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V23h-4V8zm7.5 0h3.8v2.05h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V23h-4v-6.9c0-1.64-.03-3.75-2.29-3.75-2.29 0-2.64 1.79-2.64 3.63V23h-4V8z"/></svg>
+            </a>
+            <a href="https://github.com/rakeshparida-work" class="rk-social-btn" aria-label="GitHub profile" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.38 7.86 10.9.57.1.78-.25.78-.55v-2.1c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.95.1-.75.4-1.25.73-1.53-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.08-.12-.3-.52-1.5.11-3.12 0 0 .97-.31 3.18 1.18a11.02 11.02 0 015.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.62.24 2.82.12 3.12.74.8 1.18 1.82 1.18 3.08 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .3.2.66.79.55A10.52 10.52 0 0023.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
+            </a>
+            <a href="mailto:rakesh.parida1400@gmail.com" class="rk-social-btn" aria-label="Send an email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18v12H3z"/><path d="M3 7l9 6 9-6"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="rk-hero-visual">
+          <img class="rk-hero-smoke" src="assets/images/red snow bg.webp" alt="" aria-hidden="true" loading="eager" fetchpriority="low" decoding="async">
+          <img class="rk-hero-photo" id="rkProfileImg" src="assets/images/new banner blue.webp" alt="Portrait of Rakesh Kumar Parida" loading="eager" fetchpriority="high" decoding="async">
+          <div class="rk-hero-chip rk-hero-chip-exp">
+            <span class="rk-hero-chip-icon">💻</span>
+            <span>3.5+ Years<small>WordPress Experience</small></span>
+          </div>
+          <div class="rk-hero-chip rk-hero-chip-seo">
+            <span class="rk-hero-chip-icon">📈</span>
+            <span>2 Years<small>Hands-on SEO</small></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="rk-expertise-section">
+      <div class="rk-wrap">
+        <div class="rk-section-head rk-center rk-reveal">
+          <span class="rk-eyebrow">My Expertise</span>
+          <h2>What I Do</h2>
+          <span class="rk-heading-dash" aria-hidden="true"><span></span><span></span></span>
+        </div>
+        <div class="rk-services-grid">
+          <div class="rk-service-card rk-reveal">
+            <div class="rk-service-icon"><img src="assets/icons/wordpress-logo.webp" alt="" loading="lazy" decoding="async"></div>
+            <h3>WordPress Development</h3>
+            <p>Business, service, portfolio, blog and eCommerce websites with custom functionality.</p>
+          </div>
+          <div class="rk-service-card rk-reveal">
+            <div class="rk-service-icon"><img src="assets/icons/front-end-programming.webp" alt="" loading="lazy" decoding="async"></div>
+            <h3>Frontend Development</h3>
+            <p>Responsive interfaces built with HTML, CSS, JavaScript and modern WordPress builders.</p>
+          </div>
+          <div class="rk-service-card rk-reveal">
+            <div class="rk-service-icon"><img src="assets/icons/data-analytics.webp" alt="" loading="lazy" decoding="async"></div>
+            <h3>SEO & Performance</h3>
+            <p>Technical SEO, Yoast optimization, speed improvements and search-friendly website structure..</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="rk-wrap">
+        <div class="rk-about-grid">
+          <div class="rk-about-visual rk-reveal">
+            <div class="rk-about-visual-inner">
+              <p class="rk-about-tagline">I like websites that are fast to load, easy to manage and simple to find on Google.</p>
+              <ul class="rk-about-role-list">
+                <li>
+                  <span class="rk-about-role-icon">🧩</span>
+                  <span><strong>WordPress Developer</strong>Themes, Elementor Pro &amp; Kadence builds</span>
+                </li>
+                <li>
+                  <span class="rk-about-role-icon">🔍</span>
+                  <span><strong>SEO Practitioner</strong>On-page, technical &amp; local SEO</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="rk-about-copy rk-reveal">
+            <span class="rk-eyebrow">About Me</span>
+            <h2>Building Modern Websites with WordPress</h2>
+            <p style="margin-top:20px;">I'm a WordPress Developer with 3.5+ years of experience building responsive websites for businesses.</p>
+            <p>My work usually starts with a client requirement, reference website or design. From WordPress setup and theme customization to page building, integrations, optimization, testing and final delivery, I handle the development side of the process from start to finish.</p>
+            <p>I work extensively with Elementor, WPBakery, Divi and Gutenberg, along with themes such as Astra and Kadence. I also customize themes, develop custom plugins, integrate third-party services and troubleshoot existing WordPress websites.</p>
+            <div class="rk-info-card">
+              <div class="rk-info-item"><dt>Experience</dt><dd>3.5+ Years</dd></div>
+              <div class="rk-info-item"><dt>SEO Experience</dt><dd>2 Years</dd></div>
+              <div class="rk-info-item"><dt>Specialization</dt><dd>WordPress Development</dd></div>
+              <div class="rk-info-item"><dt>27</dt><dd>Featured Websites</dd></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="rk-portfolio-showcase">
+      <div class="rk-wrap">
+        <div class="rk-portfolio-intro rk-reveal">
+          <div>
+            <span class="rk-eyebrow">Recent Work</span>
+            <h2>Look at my portfolio and<br>give me your feedback</h2>
+          </div>
+          <div class="rk-portfolio-stats" aria-label="Portfolio statistics">
+            <div><strong>40+</strong><span>Completed Projects</span></div>
+            <div><strong>3.5+</strong><span>Years Experience</span></div>
+          </div>
+        </div>
+        <div class="rk-portfolio-grid" id="rkPortfolioGrid"></div>
+        <button class="rk-btn rk-btn-outline rk-show-more" id="rkShowMore" type="button" aria-expanded="false">Show More Projects</button>
+      </div>
+    </section>
+
+    <!-- PROFILE TABS -->
+    <section id="profile-tabs" class="rk-profile-tabs-section">
+      <div class="rk-wrap">
+        <div class="rk-profile-tabs rk-reveal" role="tablist" aria-label="Profile information">
+          <button class="rk-profile-tab rk-active" id="rkTabBiography" role="tab" aria-selected="true" aria-controls="rkPanelBiography" data-tab="biography"><span>Biography</span><b>01</b></button>
+          <button class="rk-profile-tab" id="rkTabSkills" role="tab" aria-selected="false" aria-controls="rkPanelSkills" data-tab="skills"><span>Skills</span><b>02</b></button>
+          <button class="rk-profile-tab" id="rkTabEducation" role="tab" aria-selected="false" aria-controls="rkPanelEducation" data-tab="education"><span>Education</span><b>03</b></button>
+        </div>
+        <div class="rk-profile-panel rk-active" id="rkPanelBiography" role="tabpanel" aria-labelledby="rkTabBiography" data-panel="biography">
+          <div class="rk-biography-grid">
+            <div class="rk-bio-item"><strong>Name</strong><span>Rakesh Kumar Parida</span></div>
+            <div class="rk-bio-item"><strong>Experience</strong><span>3.5+ Years</span></div>
+            <div class="rk-bio-item"><strong>Location</strong><span>Bhubaneswar, Odisha, India</span></div>
+            <div class="rk-bio-item"><strong>SEO Experience</strong><span>2 Years</span></div>
+            <div class="rk-bio-item"><strong>Specialization</strong><span>WordPress Development</span></div>
+            <div class="rk-bio-item"><strong>Availability</strong><span>Open to Opportunities</span></div>
+          </div>
+        </div>
+        <div class="rk-profile-panel" id="rkPanelSkills" role="tabpanel" aria-labelledby="rkTabSkills" data-panel="skills" hidden>
+          <div class="rk-skills-grid">
+            <div class="rk-skill-cat"><h3>WordPress Development</h3><div class="rk-chip-list"><span class="rk-chip">Theme Customization</span><span class="rk-chip">Custom Plugin Development</span><span class="rk-chip">Functional PHP</span><span class="rk-chip"> Troubleshooting</span></div></div>
+            <div class="rk-skill-cat"><h3>Page Builders</h3><div class="rk-chip-list"><span class="rk-chip">Elementor</span><span class="rk-chip">WPBakery</span><span class="rk-chip">Gutenberg</span><span class="rk-chip">Divi</span></div></div>
+            <div class="rk-skill-cat"><h3>Plugins & Integrations</h3><div class="rk-chip-list"><span class="rk-chip">WooCommerce</span><span class="rk-chip">Contact Form 7</span><span class="rk-chip">ACF</span><span class="rk-chip">Mailchimp</span><span class="rk-chip">REST API Integration</span></div></div>            
+            
+            <div class="rk-skill-cat"><h3>Performance & Security</h3><div class="rk-chip-list"><span class="rk-chip">WP Rocket</span><span class="rk-chip">LiteSpeed Cache</span><span class="rk-chip">CDN Integration</span><span class="rk-chip">Image Optimization</span><span class="rk-chip">WordPress Security</span></div></div>
+            <div class="rk-skill-cat"><h3>Frontend</h3><div class="rk-chip-list"><span class="rk-chip">HTML5</span><span class="rk-chip">CSS3</span><span class="rk-chip">JavaScript</span><span class="rk-chip">PHP</span><span class="rk-chip">Git / GitHub</span><span class="rk-chip">Canva</span></div></div>
+            <div class="rk-skill-cat"><h3>SEO</h3><div class="rk-chip-list"><span class="rk-chip">Yoast SEO</span><span class="rk-chip">On-Page SEO</span><span class="rk-chip">Technical SEO</span><span class="rk-chip">Google Search Console</span><span class="rk-chip">Google Analytics</span></div></div>
+          </div>
+        </div>
+        <div class="rk-profile-panel" id="rkPanelEducation" role="tabpanel" aria-labelledby="rkTabEducation" data-panel="education" hidden>
+          <div class="rk-education-grid">
+            <article class="rk-education-item"><span class="rk-education-dot"></span><h3>Bachelor's Degree in Science</h3><strong>Utkal University</strong><span class="rk-education-period">2013-2016</span><p>Academic foundation completed at Utkal University.</p></article>
+            <article class="rk-education-item"><span class="rk-education-dot"></span><h3>Professional Front-End Development</h3><strong>Core Web Technologies</strong><span class="rk-education-period">2020</span><p>Learned core web technologies including WordPress, HTML5, CSS3, JavaScript, and version control using Git.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW I WORK -->
+    <section id="how-i-work" class="rk-profile-tabs-section rk-workflow-section">
+      <div class="rk-wrap">
+        <div class="rk-workflow-cards">
+          <article class="rk-workflow-card rk-reveal">
+          <span class="rk-workflow-step">01</span>
+          <span class="rk-workflow-label">Understand &amp; Plan</span>
+          <h3>Requirement &amp; Reference</h3>
+          <p>I understand the client's requirements, target audience and preferred design/reference before starting the development.</p>
+          </article>
+          <article class="rk-workflow-card rk-reveal">
+          <span class="rk-workflow-step">02</span>
+          <span class="rk-workflow-label">Build &amp; Customize</span>
+          <h3>Development &amp; Integration</h3>
+          <p>I set up WordPress, customize the theme, build pages, configure plugins and add the required functionality and integrations.</p>
+          </article>
+          <article class="rk-workflow-card rk-reveal">
+          <span class="rk-workflow-step">03</span>
+          <span class="rk-workflow-label">Optimize &amp; Deliver</span>
+          <h3>Testing &amp; Launch</h3>
+          <p>I check responsiveness, forms, links, performance, SEO basics and functionality across devices before preparing the website for delivery.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEVELOPMENT SERVICES SHOWCASE -->
+    <section id="development-services" class="rk-development-showcase">
+      <div class="rk-wrap">
+        <div class="rk-development-layout">
+          <div class="rk-development-intro rk-reveal">
+            <span class="rk-eyebrow">What I Build</span>
+            <h2>Digital experiences made to work.</h2>
+            <p>I build WordPress websites for different business goals—from simple portfolios and service websites to content-driven blogs and fully functional online stores.</p>
+            <div class="rk-development-promo">
+              <img src="assets/images/marketing.webp" alt="Developer presenting digital marketing ideas" loading="lazy" decoding="async">
+              <strong>Build better.<br>Grow smarter.</strong>
+            </div>
+          </div>
+          <div class="rk-development-cards">
+            <article class="rk-development-card rk-reveal">
+              <h3>KEY STRENGTHS</h3>
+              <ul><li>Frontend Development</li><li>UI Implementation</li><li>Teamwork</li><li>Time Management</li></ul>
+              <img src="assets/images/wordpress.webp" alt="WordPress icon" loading="lazy" decoding="async">
+            </article>
+            <article class="rk-development-card rk-reveal">
+              <h3>Website types</h3>
+              <ul><li>Business Websites</li><li>Service Websites</li><li>Portfolio Websites</li><li>eCommerce Websites</li><li>Blog &amp; Content Websites</li></ul>
+              <div class="rk-development-icon-pair"><img src="assets/images/CSS.webp" alt="CSS icon" loading="lazy" decoding="async"><img src="assets/images/JS.webp" alt="JavaScript icon" loading="lazy" decoding="async"></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY WORK WITH ME -->
+    <section id="why">
+      <div class="rk-wrap">
+        <div class="rk-section-head rk-center rk-reveal">
+          <span class="rk-eyebrow">WHY WORK WITH ME</span>
+          <h2>What I bring to a project</h2>
+        </div>
+        <div class="rk-why-grid">
+          <div class="rk-why-card rk-reveal">
+            <span class="rk-why-num">01</span>
+            <h3>Experience</h3>
+            <p>I understand how real WordPress websites are built, maintained, optimized and fixed—not just how to create a visual layout.</p>
+          </div>
+          <div class="rk-why-card rk-reveal">
+            <span class="rk-why-num">02</span>
+            <h3>Design to Development</h3>
+            <p>Give me a reference website, design or requirement and I can turn it into a responsive, functional WordPress website.</p>
+          </div>
+          <div class="rk-why-card rk-reveal">
+            <span class="rk-why-num">03</span>
+            <h3>Performance Mindset</h3>
+            <p>I pay attention to loading speed, responsive behavior, plugin impact, image optimization and overall website performance.</p>
+          </div>
+          <div class="rk-why-card rk-reveal">
+            <span class="rk-why-num">04</span>
+            <h3>SEO-Aware</h3>
+            <p>My development experience combined with hands-on SEO knowledge helps create websites that are structured with search visibility in mind.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME CTA -->
+    <section id="resume">
+      <div class="rk-wrap">
+        <div class="rk-cta-band rk-reveal">
+          <div class="rk-cta-text">
+            <h2>Looking for a WordPress Developer?</h2>
+            <p>I'm open to opportunities where I can contribute my WordPress development, frontend and SEO experience while continuing to grow.</p>
+          </div>
+          <div class="rk-cta-actions">
+            <a href="assets/New CV August.pdf" class="rk-btn rk-btn-primary" download>Download Resume</a>
+            <a href="#contact" class="rk-btn rk-btn-outline" style="border-color:rgba(255,255,255,0.35); color:#fff;">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="rk-tint-yellow">
+      <div class="rk-wrap">
+        <div class="rk-section-head rk-reveal">
+          <span class="rk-eyebrow">Contact</span>
+          <h2>Let's work together</h2>
+          <p>Have a project, job opportunity or simply want to connect? Feel free to reach out.</p>
+        </div>
+        <div class="rk-contact-grid">
+          <dl class="rk-contact-cards rk-reveal">
+            <div class="rk-contact-card">
+              <div class="rk-contact-icon">✉️</div>
+              <div><dt>Email</dt><dd><a href="mailto:rakesh.parida1400@gmail.com">rakesh.parida1400@gmail.com</a></dd></div>
+            </div>
+            <div class="rk-contact-card">
+              <div class="rk-contact-icon">📍</div>
+              <div><dt>Location</dt><dd>Bhubaneswar, Odisha, India</dd></div>
+            </div>
+            <div class="rk-contact-card">
+              <div class="rk-contact-icon">💼</div>
+              <div><dt>LinkedIn</dt><dd><a href="https://linkedin.com/in/rakesh-kumar-parida-linku" target="_blank" rel="noopener">View LinkedIn</a></dd></div>
+            </div>
+            <div class="rk-contact-card">
+              <div class="rk-contact-icon">🐙</div>
+              <div><dt>GitHub</dt><dd><a href="https://github.com/rakeshparida-work" target="_blank" rel="noopener">View GitHub</a></dd></div>
+            </div>
+          </dl>
+          <div class="rk-contact-next rk-reveal">
+            <span class="rk-contact-next-label">Start a project</span>
+            <h3>Have an idea in mind?</h3>
+            <p>Tell me what you are building, improving or trying to grow. I can help with the website, the details and the next clear step.</p>
+            <ul>
+              <li><span>01</span>WordPress websites and customization</li>
+              <li><span>02</span>Frontend UI implementation</li>
+              <li><span>03</span>SEO and website improvements</li>
+            </ul>
+            <a href="mailto:rakesh.parida1400@gmail.com" class="rk-btn rk-btn-primary">Email Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="rk-footer">
+    <div class="rk-wrap">
+      <div class="rk-footer-top">
+        <div class="rk-footer-brand">
+          <h3>Rakesh Kumar Parida</h3>
+          <p class="rk-footer-role">WordPress Developer</p>
+          <p>Building responsive, user-friendly and SEO-friendly websites.</p>
+        </div>
+        <div class="rk-footer-social">
+          <a href="https://linkedin.com/in/rakesh-kumar-parida-linku" aria-label="LinkedIn" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="#fff"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V23h-4V8zm7.5 0h3.8v2.05h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V23h-4v-6.9c0-1.64-.03-3.75-2.29-3.75-2.29 0-2.64 1.79-2.64 3.63V23h-4V8z"/></svg>
+          </a>
+          <a href="https://github.com/rakeshparida-work" aria-label="GitHub" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="#fff"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.38 7.86 10.9.57.1.78-.25.78-.55v-2.1c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.95.1-.75.4-1.25.73-1.53-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.08-.12-.3-.52-1.5.11-3.12 0 0 .97-.31 3.18 1.18a11.02 11.02 0 015.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.62.24 2.82.12 3.12.74.8 1.18 1.82 1.18 3.08 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .3.2.66.79.55A10.52 10.52 0 0023.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
+          </a>
+          <a href="mailto:rakesh.parida1400@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M3 6h18v12H3z"/><path d="M3 7l9 6 9-6"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="rk-footer-bottom">
+        <span>© 2026 Rakesh Kumar Parida. All Rights Reserved.</span>
+        <span>Bhubaneswar, Odisha, India</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="rk-to-top" id="rkToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <!-- PROJECT MODAL -->
+  <div class="rk-modal-overlay" id="rkModalOverlay">
+    <div class="rk-modal" role="dialog" aria-modal="true" aria-labelledby="rkModalTitle">
+      <button class="rk-modal-close" id="rkModalClose" aria-label="Close project details">&times;</button>
+      <img class="rk-modal-img" id="rkModalImg" src="" alt="">
+      <div class="rk-modal-body">
+        <span class="rk-modal-cat" id="rkModalCat"></span>
+        <h3 id="rkModalTitle"></h3>
+        <p class="rk-modal-desc" id="rkModalDesc"></p>
+        <div class="rk-modal-tech" id="rkModalTech"></div>
+        <a href="#" id="rkModalLink" class="rk-btn rk-btn-dark" target="_blank" rel="noopener">View Live Project</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- /#rk-portfolio-site -->
+
+
+
+    <script src="data/projects.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
