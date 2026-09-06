@@ -1992,11 +1992,19 @@ html {
   #rk-portfolio-site .rk-service-card,
   #rk-portfolio-site .rk-service-card:first-child,
   #rk-portfolio-site .rk-service-card:last-child {
-    padding: 0 0 28px;
+    min-height: 0;
+    padding: 0 0 16px;
     border-right: 0;
     border-bottom: 1px solid var(--rk-line);
   }
-  #rk-portfolio-site .rk-service-card + .rk-service-card { padding-top: 28px; }
+  #rk-portfolio-site .rk-service-icon {
+    width: 72px;
+    height: 72px;
+    margin-bottom: 16px;
+    border-radius: 20px;
+  }
+  #rk-portfolio-site .rk-service-icon img { width: 50px; height: 50px; }
+  #rk-portfolio-site .rk-service-card + .rk-service-card { padding-top: 16px; }
   #rk-portfolio-site .rk-service-card:last-child { border-bottom: 0; padding-bottom: 0; }
   #rk-portfolio-site .rk-hero-ghost { font-size: clamp(40px, 15vw, 70px); top: -14px; }
   #rk-portfolio-site .rk-hero-smoke { max-width: 320px; }
