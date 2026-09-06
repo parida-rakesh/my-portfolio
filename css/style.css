@@ -1843,14 +1843,32 @@ html {
   #rk-portfolio-site .rk-workflow-card { min-height: 0; padding: 26px 24px; }
   #rk-portfolio-site .rk-expertise-section > .rk-wrap { padding-top: 48px; padding-bottom: 48px; }
   #rk-portfolio-site .rk-section-head { margin-bottom: 36px; }
+  #rk-portfolio-site main > section:not(#home) .rk-eyebrow {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  #rk-portfolio-site main > section:not(#home) .rk-section-head h2 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
   #rk-portfolio-site .rk-header-inner { padding: 10px 14px; border-radius: 24px; }
-  #rk-portfolio-site .rk-logo-text span { display: none; }
+  #rk-portfolio-site .rk-logo-text { display: none; }
+  #rk-portfolio-site .rk-mobile-nav a {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+  #rk-portfolio-site .rk-mobile-nav .rk-btn {
+    font-size: 13px;
+    padding: 11px 20px;
+    margin-top: 22px;
+  }
   #rk-portfolio-site .rk-portfolio-intro {
     display: block;
     margin-bottom: 34px;
   }
   #rk-portfolio-site .rk-portfolio-intro h2 {
-    font-size: 30px;
+    font-size: 25px;
+    line-height: 1.2;
   }
   #rk-portfolio-site .rk-portfolio-stats {
     margin-top: 30px;
@@ -1875,6 +1893,42 @@ html {
   #rk-portfolio-site .rk-profile-tab {
     justify-content: space-between;
     padding: 12px 20px;
+    font-size: 13px;
+  }
+  #rk-portfolio-site .rk-profile-tab b {
+    font-size: 20px;
+  }
+  #rk-portfolio-site .rk-chip {
+    font-size: 13px !important;
+  }
+  #rk-portfolio-site .rk-profile-panel,
+  #rk-portfolio-site .rk-profile-panel p,
+  #rk-portfolio-site .rk-profile-panel span,
+  #rk-portfolio-site .rk-profile-panel li,
+  #rk-portfolio-site .rk-service-card p,
+  #rk-portfolio-site .rk-workflow-card p,
+  #rk-portfolio-site .rk-info-card,
+  #rk-portfolio-site .rk-info-card dd {
+    font-size: 13px !important;
+  }
+  #rk-portfolio-site .rk-info-card *,
+  #rk-portfolio-site .rk-service-card *,
+  #rk-portfolio-site .rk-skill-cat *,
+  #rk-portfolio-site .rk-timeline-card *,
+  #rk-portfolio-site .rk-workflow-card *,
+  #rk-portfolio-site .rk-development-card *,
+  #rk-portfolio-site .rk-project-card *,
+  #rk-portfolio-site .rk-seo-card *,
+  #rk-portfolio-site .rk-why-card *,
+  #rk-portfolio-site .rk-stat-card *,
+  #rk-portfolio-site .rk-testi-card *,
+  #rk-portfolio-site .rk-contact-card *,
+  #rk-portfolio-site .rk-contact-next *,
+  #rk-portfolio-site .rk-education-item *,
+  #rk-portfolio-site .rk-hero-chip *,
+  #rk-portfolio-site .rk-modal-tech *,
+  #rk-portfolio-site .rk-seo-tools * {
+    font-size: 13px !important;
   }
   #rk-portfolio-site .rk-profile-panel {
     min-height: 0;
@@ -1887,6 +1941,10 @@ html {
   }
   #rk-portfolio-site .rk-bio-item {
     padding: 12px 0;
+  }
+  #rk-portfolio-site .rk-bio-item strong,
+  #rk-portfolio-site .rk-bio-item span {
+    font-size: 14px;
   }
   #rk-portfolio-site .rk-bio-item span {
     max-width: 55%;
